@@ -37,87 +37,30 @@ body {
     padding: 0 20px;
 }
 
-/* Navigation */
-.navbar {
-    background-color: white;
-    border-bottom: 2px solid var(--light-brown);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 20px;
-}
-
-.nav-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-brown);
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-links a {
-    color: var(--text-dark);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-    position: relative;
-}
-
-.nav-links a:hover {
-    color: var(--primary-brown);
-}
-
-.nav-links a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--sage-green);
-    transition: width 0.3s ease;
-}
-
-.nav-links a:hover::after {
-    width: 100%;
-}
-
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--nude) 100%);
+    background: linear-gradient(135deg, #FFFAF0 0%, #E8D5C4 100%);
     padding: 120px 20px;
     text-align: center;
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
-    color: var(--dark-brown);
+    color: #5C4033;
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
 .tagline {
     font-size: 1.3rem;
-    color: var(--primary-brown);
+    color: #8B7355;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
 .hero-description {
     font-size: 1.1rem;
-    color: var(--text-light);
+    color: #666666;
     max-width: 600px;
     margin: 0 auto 2rem;
     line-height: 1.8;
@@ -144,24 +87,24 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--primary-brown);
+    background-color: #8B7355;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: var(--dark-brown);
+    background-color: #5C4033;
     transform: translateY(-2px);
     box-shadow: 0 8px 16px rgba(91, 64, 51, 0.2);
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: var(--primary-brown);
-    border: 2px solid var(--primary-brown);
+    color: #8B7355;
+    border: 2px solid #8B7355;
 }
 
 .btn-secondary:hover {
-    background-color: var(--primary-brown);
+    background-color: #8B7355;
     color: white;
     transform: translateY(-2px);
 }
@@ -169,7 +112,7 @@ body {
 /* About Section */
 .about {
     padding: 80px 20px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .about h2,
@@ -177,7 +120,7 @@ body {
 .projects h2,
 .contact h2 {
     font-size: 2.5rem;
-    color: var(--dark-brown);
+    color: #5C4033;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -190,7 +133,7 @@ body {
 }
 
 .about-text p {
-    color: var(--text-light);
+    color: #666666;
     margin-bottom: 1.5rem;
     font-size: 1.05rem;
     line-height: 1.8;
@@ -203,9 +146,9 @@ body {
 }
 
 .highlight {
-    background-color: var(--cream);
+    background-color: #FFFAF0;
     padding: 2rem;
-    border-left: 4px solid var(--sage-green);
+    border-left: 4px solid #9CAF88;
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
@@ -215,20 +158,20 @@ body {
 }
 
 .highlight h3 {
-    color: var(--primary-brown);
+    color: #8B7355;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
 
 .highlight p {
-    color: var(--text-light);
+    color: #666666;
     font-size: 0.95rem;
 }
 
 /* Tech Stack Section */
 .tech-stack {
     padding: 80px 20px;
-    background-color: var(--cream);
+    background-color: #FFFAF0;
 }
 
 .tech-grid {
@@ -238,10 +181,10 @@ body {
 }
 
 .tech-card {
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 2rem;
     border-radius: 8px;
-    border-top: 4px solid var(--sage-green);
+    border-top: 4px solid #9CAF88;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -251,7 +194,7 @@ body {
 }
 
 .tech-card h3 {
-    color: var(--primary-brown);
+    color: #8B7355;
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
 }
@@ -261,7 +204,7 @@ body {
 }
 
 .tech-list li {
-    color: var(--text-light);
+    color: #666666;
     padding: 0.5rem 0;
     padding-left: 1.5rem;
     position: relative;
@@ -269,7 +212,7 @@ body {
 
 .tech-list li::before {
     content: '▪';
-    color: var(--sage-green);
+    color: #9CAF88;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -294,11 +237,11 @@ body {
 }
 
 .lang-segment.html {
-    background-color: var(--html-color);
+    background-color: #E34C26;
 }
 
 .lang-segment.ruby {
-    background-color: var(--ruby-color);
+    background-color: #CC342D;
 }
 
 .lang-legend {
@@ -311,7 +254,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--text-light);
+    color: #666666;
 }
 
 .legend-color {
@@ -321,15 +264,15 @@ body {
 }
 
 .legend-color.html {
-    background-color: var(--html-color);
+    background-color: #E34C26;
 }
 
 .legend-color.ruby {
-    background-color: var(--ruby-color);
+    background-color: #CC342D;
 }
 
 .tech-desc {
-    color: var(--text-light);
+    color: #666666;
     font-size: 0.95rem;
     margin-top: 1rem;
 }
@@ -337,7 +280,7 @@ body {
 /* Projects Section */
 .projects {
     padding: 80px 20px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .projects-grid {
@@ -348,10 +291,10 @@ body {
 }
 
 .project-card {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--nude) 100%);
+    background: linear-gradient(135deg, #FFFAF0 0%, #E8D5C4 100%);
     padding: 2rem;
     border-radius: 8px;
-    border-left: 4px solid var(--sage-green);
+    border-left: 4px solid #9CAF88;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -369,14 +312,14 @@ body {
 }
 
 .project-header h3 {
-    color: var(--dark-brown);
+    color: #5C4033;
     font-size: 1.3rem;
     flex: 1;
 }
 
 .project-tag {
-    background-color: var(--light-brown);
-    color: white;
+    background-color: #D2B48C;
+    color: #FFFFFF;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -385,7 +328,7 @@ body {
 }
 
 .project-card p {
-    color: var(--text-light);
+    color: #666666;
     margin-bottom: 1.5rem;
     line-height: 1.6;
 }
@@ -397,7 +340,7 @@ body {
 }
 
 .project-link {
-    color: var(--primary-brown);
+    color: #8B7355;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -405,7 +348,7 @@ body {
 }
 
 .project-link:hover {
-    color: var(--sage-green);
+    color: #9CAF88;
 }
 
 .project-link::after {
@@ -415,7 +358,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--sage-green);
+    background-color: #9CAF88;
     transition: width 0.3s ease;
 }
 
@@ -430,13 +373,13 @@ body {
 /* Contact Section */
 .contact {
     padding: 80px 20px;
-    background: linear-gradient(135deg, var(--primary-brown) 0%, var(--dark-brown) 100%);
+    background: linear-gradient(135deg, #8B7355 0%, #5C4033 100%);
     color: white;
     text-align: center;
 }
 
 .contact h2 {
-    color: white;
+    color: #FFFFFF;
 }
 
 .contact p {
@@ -455,24 +398,24 @@ body {
 }
 
 .contact-link {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 600;
     padding: 12px 24px;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
 .contact-link:hover {
-    background-color: white;
-    color: var(--primary-brown);
+    background-color: #FFFFFF;
+    color: #8B7355;
 }
 
 /* Footer */
 .footer {
-    background-color: var(--dark-brown);
-    color: var(--nude);
+    background-color: #5C4033;
+    color: #E8D5C4;
     padding: 2rem;
     text-align: center;
     font-size: 0.95rem;
@@ -480,11 +423,6 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-links {
-        gap: 1rem;
-        font-size: 0.9rem;
-    }
-
     .hero-content h1 {
         font-size: 2.5rem;
     }
@@ -540,15 +478,6 @@ body {
 @media (max-width: 480px) {
     .hero-content h1 {
         font-size: 2rem;
-    }
-
-    .nav-brand {
-        font-size: 1.2rem;
-    }
-
-    .nav-links {
-        gap: 0.5rem;
-        font-size: 0.8rem;
     }
 
     .tagline {
