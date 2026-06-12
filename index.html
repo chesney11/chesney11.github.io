@@ -1,15 +1,186 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Yay </title>
-    </head>
-    <body>
-        <h2> Chesney </h2>
-    </body>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>      
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chesney | Data Analytics & Full-Stack Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Chesney</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tech">Tech Stack</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Chesney</h1>
+                <p class="tagline">Data Analytics | Full-Stack Development | Python & Analytics</p>
+                <p class="hero-description">I transform data into actionable insights and build responsive web applications that matter.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate data analyst and full-stack developer with a focus on creating elegant solutions to complex problems. My background spans data science, web development, and analytics—combining technical expertise with creative problem-solving.</p>
+                    <p>I love working with Python, Jupyter notebooks, and modern web technologies to build projects that have real impact. Whether it's analyzing datasets or developing interactive applications, I bring attention to detail and a commitment to quality.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <h3>Data Analytics</h3>
+                        <p>Statistical analysis, visualization, and actionable insights from complex datasets</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>Web Development</h3>
+                        <p>Building responsive, user-friendly applications with modern technologies</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>Python</h3>
+                        <p>Data manipulation, automation, and scalable backend solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>This Portfolio</h3>
+                    <div class="tech-composition">
+                        <div class="lang-bar">
+                            <div class="lang-segment html" style="width: 90.2%;" title="HTML 90.2%"></div>
+                            <div class="lang-segment ruby" style="width: 9.8%;" title="Ruby 9.8%"></div>
+                        </div>
+                        <div class="lang-legend">
+                            <span><span class="legend-color html"></span>HTML 90.2%</span>
+                            <span><span class="legend-color ruby"></span>Ruby 9.8%</span>
+                        </div>
+                    </div>
+                    <p class="tech-desc">Built with semantic HTML and powered by Jekyll for static site generation</p>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Languages</h3>
+                    <ul class="tech-list">
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Tools & Frameworks</h3>
+                    <ul class="tech-list">
+                        <li>Jupyter Notebooks</li>
+                        <li>Jekyll</li>
+                        <li>GitHub Pages</li>
+                        <li>Git & Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="tech-card">
+                    <h3>Data & Analytics</h3>
+                    <ul class="tech-list">
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib & Seaborn</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Project Name</h3>
+                        <span class="project-tag">Data Analytics</span>
+                    </div>
+                    <p>Brief description of your project. Highlight the problem you solved and the impact it made.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project →</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Project Name</h3>
+                        <span class="project-tag">Web Development</span>
+                    </div>
+                    <p>Brief description of your project. Highlight the problem you solved and the impact it made.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project →</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Project Name</h3>
+                        <span class="project-tag">Analytics</span>
+                    </div>
+                    <p>Brief description of your project. Highlight the problem you solved and the impact it made.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Project →</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>I'm always interested in new projects and opportunities. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="https://github.com/chesney11" class="contact-link" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="mailto:your.email@example.com" class="contact-link">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Chesney. Built with HTML, CSS, and Jekyll. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
